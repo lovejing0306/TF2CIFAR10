@@ -14,7 +14,7 @@ If you find this project useful and using it in your work please cite this imple
 ## Accuracy
 |Model|Acc|
 | --- | --- |
-| Resnet56  |94%|
+| Resnet56  |94.0%|
 | Resnet110  |94.6%|
 | Resnet164  |94.6%|
 | MobileNetV2  |94.3%|
