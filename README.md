@@ -2,7 +2,9 @@
 
 ## Introduction
 I trained CIFAR10 dataset with TensorFlow2, it is very easy to build the project environment by using TensorFlow2's docker container.
-You can download it form [here](https://hub.docker.com/r/tensorflow/tensorflow/tags?page=1&name=2.0.0) .If you find this project useful and using it in your work please cite this implementation, thanks.
+You can download it form [here](https://hub.docker.com/r/tensorflow/tensorflow/tags?page=1&name=2.0.0) .
+
+If you find this project useful and using it in your work please cite this implementation, thanks.
 
 ## Requirements
 * TensorFlow2.0
