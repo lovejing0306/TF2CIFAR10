@@ -1,6 +1,5 @@
 # coding=utf-8
 
-
 width = 32
 height = 32
 num_channels = 3
@@ -14,7 +13,7 @@ start_epoch = 0
 num_train_samples = 50000
 lr = 1e-1
 lr_range = [(150, 1e-2), (250, 1e-3), (350, 1e-4)]
-# [(80, 1e-4), (120, 1e-5), (160, 1e-6), (180, 0.5e-6)]
+
 weight_decay = 5e-4
 label_smoothing = 0.2
 

@@ -9,6 +9,7 @@ If you find this project useful and using it in your work please cite this imple
 ## Requirements
 * TensorFlow2.0
 * Python3
+* opencv-python
 * tqdm
 
 ## Accuracy

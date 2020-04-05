@@ -237,7 +237,6 @@ def ResNet(version, input_shape, depth, num_classes=10):
 
 if __name__ == '__main__':
     import os
-
     os.environ['CUDA_VISIBLE_DEVICES'] = '2'
     resnet = ResNet(version=2,
                     input_shape=[32, 32, 3],

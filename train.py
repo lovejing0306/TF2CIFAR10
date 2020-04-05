@@ -167,18 +167,18 @@ def main():
     val_generator = val_generator.batch(batch_size=config.batch_size)
     val_generator = val_generator.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
 
-    # model = resnet.ResNet(version=config.resnet_version,
-    #                       input_shape=(config.height, config.width, config.num_channels),
-    #                       depth=config.resnet_depth,
-    #                       num_classes=config.num_classes)
+    model = resnet.ResNet(version=config.resnet_version,
+                          input_shape=(config.height, config.width, config.num_channels),
+                          depth=config.resnet_depth,
+                          num_classes=config.num_classes)
 
     # model = dpn.DPN92(input_shape=(config.height, config.width, config.num_channels),
     #                    num_classes=config.num_classes,
     #                    weight_decay=config.weight_decay)
 
-    model = mobilenet_v2.MobileNetV2(input_shape=(config.height, config.width, config.num_channels),
-                                     num_classes=config.num_classes,
-                                     weight_decay=config.weight_decay)
+    # model = mobilenet_v2.MobileNetV2(input_shape=(config.height, config.width, config.num_channels),
+    #                                  num_classes=config.num_classes,
+    #                                  weight_decay=config.weight_decay)
 
     trainer = Trainer(model_dir=config.model_dir,
                       summary_dir=config.summary_dir,
