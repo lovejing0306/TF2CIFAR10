@@ -24,15 +24,15 @@ If you find this project useful and using it in your work please cite this imple
 
 1. Download CIFAR10 dataset in [Google Drive](https://drive.google.com/open?id=11vY3RJAp_4FC5mAx26q37ncOQRw3miE9) or [Baidu Yun](https://pan.baidu.com/s/1yvtaX628_EuKcjvXmHbOuQ) 85r9 and 
 unzip it. Then, put them under directory
-    ```angular2
+    ```
     ./cifar/original
     ```
 2. Convert CIFAR10 dataset by run `parse.py`
-    ```angular2
+    ```
     python3 ./dataset/parse.py
     ```
 3. Train the model using `tain.py`, you need to modify `train.py` to choose a net you want to train.
-    ```angular2
+    ```
     python3 train.py
     ```
 ## Details of training
